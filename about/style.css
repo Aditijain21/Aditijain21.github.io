@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+.nav {
+    width: 20vw;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.container {
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left,
+.right {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 30rem;
+}
+
+.left {
+    display: flex;
+    position: relative;
+
+}
+
+.left img {
+    position: relative;
+    right: 7rem;
+    top: 8rem;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+
+}
+
+.left .social a {
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.left .box {
+    height: 80%;
+    border: 0.5rem solid yellow;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1rem;
+    width: 18rem;
+    min-width: 200px;
+    margin: auto;
+}
+
+
+.box {
+    width: 1002px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right h1 {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.right p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.right p>a {
+    font-size: 1.1rem;
+}
